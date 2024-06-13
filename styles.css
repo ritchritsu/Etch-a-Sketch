@@ -1,0 +1,42 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    height: 600px;
+    border: 1px solid #000;
+    position: relative;
+    left: 33%;
+    top: 33%;
+}
+
+.flex-container div {
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    background-color: white;
+}
+
+
+
+button { 
+    border: none;
+    border-radius: 20px;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+
+}
